@@ -23,9 +23,9 @@ lambda_runtime = "0.7.0"
 aws-config = "0.54.1"
 
 aws_lambda_events = "0.7.2"
-aws-sdk-s3 = "0.24.0"
-aws-sdk-lambda = "0.24.0"
-aws-sdk-sns = "0.24.0"
+aws-sdk-s3 = "1.157.0"
+aws-sdk-lambda = "1.156.0"
+aws-sdk-sns = "1.121.0"
 futures = "0.3"
 futures-util = "0.3.23"
 anyhow = "1.0.53"
@@ -48,7 +48,7 @@ apache-avro = { git = "https://github.com/apache/avro.git", rev = "05099c3", fea
   "zstandard",
   "snappy",
 ] }
-rand = "0.8.5"
+rand = "0.10.3"
 chrono = "*"
 arrow2 = { git = "https://github.com/jorgecarleitao/arrow2.git", rev = "c615095", features = [
   "io_avro",
