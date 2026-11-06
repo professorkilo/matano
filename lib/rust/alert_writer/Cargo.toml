@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rand = "0.8.4"
+rand = "0.10.3"
 shared = { path = "../shared" }
 anyhow = "1.0.53"
 tokio = { version = "1.17.0", features = ["full"] }
@@ -31,12 +31,12 @@ tracing = { version = "0.1.30", features = ["log"] }
 lambda_runtime = "0.7.0"
 aws-config = "0.55"
 aws_lambda_events = "0.7.2"
-aws-sdk-sqs = "0.25.0"
-aws-sdk-sns = "0.25.0"
-aws-sdk-dynamodb = "0.25.0"
+aws-sdk-sqs = "1.119.0"
+aws-sdk-sns = "1.121.0"
+aws-sdk-dynamodb = "1.137.0"
 serde_dynamo = { version = "4.2.1", features = ["aws-sdk-dynamodb+0_25"] }
 
-aws-sdk-secretsmanager = "0.24.0"
+aws-sdk-secretsmanager = "1.125.0"
 lazy_static = "1.4.0"
 async_once = "0.2.6"
 async-trait = "0.1.58"

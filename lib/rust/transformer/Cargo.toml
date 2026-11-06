@@ -10,7 +10,7 @@ rust-version = "1.63.0"
 shared = { path = "../shared", features = ["avro"] }
 
 anymap = "0.12.1"
-lru = "0.9.0"
+lru = "0.16.3"
 tokio = { version = "1.17.0", features = ["macros"] }
 tokio-util = { version = "0.7", default-features = false, features = ["codec"] }
 rayon = "1.5.3"
@@ -55,10 +55,10 @@ tracing = { version = "0.1.30", features = ["log"] }
 # NOTE: the following crate is not part of the SDK, but it is maintained by AWS.
 lambda_runtime = "0.7.0"
 aws-config = "0.54.1"
-aws-sdk-s3 = "0.24.0"
-aws-sdk-sns = "0.24.0"
-aws-sdk-sqs = "0.24.0"
-aws-sdk-sts = "0.24.0"
+aws-sdk-s3 = "0.25.1"
+aws-sdk-sns = "0.25.1"
+aws-sdk-sqs = "0.25.1"
+aws-sdk-sts = "0.26.0"
 aws-types = "0.55.1"
 aws_lambda_events = "0.7.0"
 walkdir = "2.3.2"
